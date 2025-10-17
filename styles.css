@@ -1,0 +1,84 @@
+    /* Karol Scarlett Galindo Piedra*/
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-image: url(fp.jpg);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    @font-face {
+    font-family: 'Pokemon'; /* Elige un nombre para tu fuente */
+    src: url('pokemon/Pokemon\ Hollow.ttf') format('truetype'); /* Indica la ruta al archivo de la fuente */
+    font-weight: normal; /* O un valor numérico como 700 para negritas */
+    font-style: normal; /* O italic */
+    color: #0c3ee1;
+   }
+
+    h1 {
+        color: white;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        font-family: 'Pokemon', sans-serif; /* Aplica la fuente a los encabezados */
+
+    }
+
+    .contenedor {
+        background-color: white;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        width: 300px;
+        text-align: center;
+        transition: transform 0.3s ease;
+    }
+
+    .contenedor:hover {
+        transform: scale(1.05);
+        color: #1453c8;
+    }
+
+    input {
+        width: 80%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+    }
+
+    button {
+        background-color: #ff0000;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: background 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #0007cc;
+    }
+
+    #resultado {
+        margin-top: 20px;
+    }
+
+    #resultado img {
+        width: 120px;
+        height: 120px;
+        margin-top: 10px;
+    }
+
+    #resultado h2 {
+        color: #3b4cca;
+    }
+    p{
+        font-family: 'Pokemon', sans-serif;
+        color: #ff0000;
+    }
